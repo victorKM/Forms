@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    font-family: 'Righteous', cursive;
+}
+
+/* Header */
+header{
+    background-color: rgb(37, 35, 35);
+    padding: 10px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0; 
+} 
+.sign{
+    background-color: rgb(69, 68, 68);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    display:inline-block;
+    border: 2px solid white;
+    border-radius: 20px; 
+    margin: 8px 5px;
+}
+.log{
+    background-color: rgb(69, 68, 68);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px; 
+    margin: 8px 5px;
+}
+
+.sign:hover{
+    border: 2px solid rgb(36, 209, 36);
+}
+
+.log:hover{
+    border: 2px solid rgb(36, 209, 36);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(36, 209, 36);
+    color: rgb(36, 209, 36);
+}
+header img{
+    max-width: 4%;
+}
+
+/* Footer */
+p.rodape {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* Forms */
+body {
+    background-image: url("background.webp");
+}
+h2{
+    margin-top: 180px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    justify-content: center;
+    align-items: center;
+    position: center;
+    font-size: 20px;
+}
+.background{
+    display: flex;
+    border: 2px solid rgba(225, 219, 206, 0);
+    border-radius: 5px;
+    background-color:rgba(98, 65, 3, 0.387);
+    color: black; 
+    max-width: 1000px; 
+    padding: 30px 50px;
+}  
+.alinhamento{
+    display:flex;
+    justify-content: center;
+}
+.textbox {
+    text-align:left;
+}
+form input{
+    border: none;
+    width:100%; 
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+form input::placeholder {
+    font-size: 18px;
+    vertical-align: middle;
+    font-family: 'Righteous', cursive;
+}
+form input:focus{
+    border:none;
+    outline:none;
+}
+form select {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+form select:focus{
+    border:none;
+    outline:none;
+}
+form textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border:none;
+    font-size: 18px;
+}
+form textarea::placeholder{
+    font-size:18px;
+    font-family: 'Righteous', cursive;
+}
+form textarea:focus{
+    border:none;
+    outline:none;
+}
+form button {
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 12px 20px;
+    font-family: 'Righteous', cursive;
+}
+form button:hover {
+    border: 2px solid rgb(36, 209, 36);
+}
+form input[type=radio], input[type=checkbox]{
+    width: auto;
+    margin-right: 0.5rem;
+    margin-left: 0.3rem;
+    margin-top: 1.5rem;
+}
+form input[type=checkbox]{
+    border-radius: 5px;
+    transform: scale(1.7);
+}
+form input[type=radio]{
+    transform: scale(1.7);
+}
+rad.p{
+    width: auto;
+}

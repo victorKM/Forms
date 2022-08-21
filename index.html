@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width", initial-scale="1.0">
+   <title>Formulario</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <img src="empresa.png" align="left">
+       <nav>
+         <a class="sign">Sign Up</a>
+         <a class="log">Log In</a>
+       </nav>
+    </header>
+
+    <h2>Search for Study</h2>
+    <div class="alinhamento">
+      <div class="background">
+         <form>
+            <!-- Caixa de texto normais para responder -->
+            <div class="textbox">
+               <label for="Name">Name</label><br>
+               <input type="text" id="Name" name="Name" placeholder="Name" required>
+               <br><br>
+               <label for="Last Name">Last Name</label><br>
+               <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" required>
+               <br><br>
+               <label for="Email">Email</label><br>
+               <input type="email" id="Email" name="Email" placeholder="Email" required>
+               <br><br>
+            </div>
+            <!-- Opcoes de bolinha para escolher -->
+            <div class="rad">
+               <p>Age:</p>
+               <input type="radio" name="age" value="0-25" id="op1">
+               <label for="op1">0-25</label>
+               <br>
+               <input type="radio" name="age" value="26-50" id="op2">
+               <label for="op2">26-50</label>
+               <br>
+               <input type="radio" name="age" value="51+" id="op3">
+               <label for="op3">51+</label>
+               <br><br>
+            </div>
+            
+            <!-- Dropdown -->
+            <div class="drop">
+               <label for="question">How much free time do you usually have during the day?</label>
+               <select name="question" id="question">
+                  <option value="q1">1 - 2 Hours</option>
+                  <option value="q2">3 - 4 Hours</option>
+                  <option value="q3">5 - 6 Hours</option>
+               </select>
+               <br><br>
+            </div>
+
+            <!-- Checkboxes -->
+            <div class="check">
+               <p>What are/were your favorite subjects?</p>
+               <input type="checkbox" id="mat" name="mat" value="math">
+               <label for="mat">Math</label><br>
+               <input type="checkbox" id="mat" name="mat" value="physics">
+               <label for="mat">Physics</label><br>
+               <input type="checkbox" id="mat" name="mat" value="quimistry">
+               <label for="mat">Quimistry</label><br>
+               <input type="checkbox" id="mat" name="mat" value="geography">
+               <label for="mat">Geography</label><br>
+               <input type="checkbox" id="mat" name="mat" value="history">
+               <label for="mat">History</label><br>
+               <input type="checkbox" id="mat" name="mat" value="portuguese">
+               <label for="mat">Portuguese</label><br>
+               <br>
+            </div>
+
+            <!-- Bloco de notas -->
+            <label for="suggestion">Suggestions or comments</label><br>
+            <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Write your comment here..."></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+         </forms>
+      </div>
+   </div>
+    </body>
+    <footer>
+       <p class="rodape">Made by Victor Kikuti Maceron</p>
+    </footer>
+</body>
+</html>
